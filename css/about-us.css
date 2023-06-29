@@ -1,0 +1,226 @@
+.menu-principal {
+    background-color: black;
+    height: 86px;
+    width: 100%;
+}
+
+ul {
+    padding: 0px !important;
+
+}
+
+main, .content{
+    margin: 0 auto;
+    width: 980px;
+    height: 23px;
+    position: relative;
+}
+
+body {
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    padding: 18px;
+    width: 75%;
+}
+
+.redes-sociais ul li {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.redes-sociais {
+    width: 20%;
+    float: right;
+    margin-top: 30px;
+}
+
+.header-2 {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+}
+
+.menu ul li a {
+    color: black;
+    font-family: fantasy;
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.menu ul li :hover {
+    border-bottom: 3px groove red;
+}
+
+
+.busca {
+    width: 30%;
+    float: right;
+    text-align: center
+}
+
+.busca input {
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 11px;
+    border: 1px solid #d6d6d6; 
+}
+
+.col-100 {
+    width: 100%;
+    height: 80px;
+    float: left;
+    position: relative;
+}
+
+input::-webkit-input-placeholder {
+    color: #8b8b8b;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+input[type="Text"] {
+    width: 200px;
+    height: 36px;
+    border: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+    background-color: #efefef;
+}
+
+input[type="submit"] {
+    left: -5px;
+    border-radius: 0 25px 25px 0;
+    width: 65px;
+    height: 36px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: red;
+}
+
+input[type="submit"] :active {
+    position: relative;
+    top: 10px;
+}
+
+
+input[type="submit"]:hover {
+    background-color: green;
+}
+
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../imagem/previous.png');
+    top: 210%;
+    left: 10%;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../imagem/next.png');
+    top: 210%;
+    right: 11%;
+}
+.slider-principal {
+    width:100%;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background:transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 10%;
+    position: absolute;
+    left:48%;
+    top: 390px;
+}
+li.slick-active button {
+    background: red;
+}
+.slick-dots li{
+    padding-left: 10px;
+    display: inline-block;
+}
+.slcik-list{
+    width: 100%!important;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+.texto-destaque p {
+    font-size: 25px;
+    color: black;
+}
+.texto-destaque p1 {
+    font-size: 20px;
+    color: black;
+}
+.texto-destaque{
+    text-align: center;
+    top: 360px;
+}
+.texto-destaque h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+.About-us {
+    text-align: center;
+    margin-top: 130px;
+}
+.About-us h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+.About-us p {
+    font-size: 26px;
+    color: black;
+}
+
+ 
+ 

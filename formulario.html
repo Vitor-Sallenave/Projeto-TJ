@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="50">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="css/formulario.css" />
+    <script src="./js/acesso.js"></script>
+</head>
+
+<body>
+    <h1>REGISTER</h1>
+    <h2> Insert all the important information </h2>
+    <fieldset>
+        <legend> Private Access </legend>
+        <form name="form">
+            Name: <input type="text" name="nome" autocomplete="off"><br><br>
+            Password: <input type="password" name="senha" autocomplete="off"><br><br>
+            <input type="button" name="botao" value="Login" onclick="acesso(this.form)">
+            <input type="reset" name="limpar" value="Delete">
+        </form>
+    </fieldset>
+</body>
+
+</html>
